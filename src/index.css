@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+@layer components {
+    .draft {
+        @apply px-3 py-4 w-full transition-all border-r-2 border-l-2 border-b-2 hover:bg-gray-100 cursor-pointer;
+    }
+
+    .ctn {
+        @apply w-[90%] max-w-xs mx-auto flex flex-col h-screen justify-center items-center;
+    }
+
+    .only {
+        @apply rounded-md border-2;
+    }
+
+    .btn {
+        @apply bg-black text-white rounded-md text-sm px-4 py-2 transition-all hover:opacity-70 disabled:opacity-40 disabled:cursor-not-allowed;
+    }
+
+    .add {
+        @apply flex items-center justify-between w-full font-medium mb-4;
+    }
+}

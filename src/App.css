@@ -1,0 +1,14 @@
+* {
+    /* outline: 1px solid red; */
+}
+
+.drafts-ctn > :first-child {
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top: 2px solid #e5e7eb;
+}
+
+.drafts-ctn > :last-child {
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
